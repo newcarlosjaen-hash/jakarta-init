@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- PASO 2: Tradicionalmente, aquí se configuraba qué ruta web llamaba a qué Servlet. -->
+<!-- En Jakarta EE moderno, este archivo suele estar casi vacío porque el enrutamiento se delega a las anotaciones (@WebServlet) directamente en el código Java. -->
 <web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_1.xsd"
